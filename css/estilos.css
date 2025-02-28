@@ -16,11 +16,11 @@ body {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-h1, h2 {
+h1, h2,h3,h4,h5,h6 {
     margin: 10px 0;
     color: #ff00c3;
 }
-p, ul {
+p, ul, ol {
     font-size: 1.2em;
     color: #ffffff;
     margin: 10px 0;
@@ -61,4 +61,25 @@ ul {
 }
 pre {
     color: #00ff08;
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+}
+code{
+    margin: 0%;
+    padding: 0%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    color:#00ff08;
+}
+th {
+    background-color: #f4f4f4;
 }
